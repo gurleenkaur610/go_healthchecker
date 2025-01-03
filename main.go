@@ -11,7 +11,7 @@ import (
 func main() {
 	app := &cli.App{
 		Name:  "Healthchecker",
-		Usage: "A tiny tool that checks whether a website is worked or is down",
+		Usage: "A tiny tool that checks whether a website is working or is down and not available for network traffic.",
 		Flags: []cli.Flag{
 			&cli.StringFlag{
 				Name:     "domain",
